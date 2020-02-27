@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Layout2 from '../components/LayoutForNav2';\nimport { useState } from 'react';\nexport default function Payment() {\n  return __jsx(Layout2, null, __jsx(\"h1\", {\n    className: \"gg-u-text-megaphone\"\n  }, \"Payments\"));\n}","map":null,"metadata":{},"sourceType":"module"}
