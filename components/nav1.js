@@ -21,5 +21,4 @@ function Nav1(props) {
         </nav>
     )
 }
-
 export default Nav1;
