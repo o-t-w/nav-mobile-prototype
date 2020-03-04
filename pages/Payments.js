@@ -5,7 +5,7 @@ export default function Payment() {
 
     return (
         <Layout1>
-            <h1 className="gg-u-text-megaphone">Payments</h1>
+            <h1 className="gg-u-text-megaphone">Action</h1>
         </Layout1>
     );
 }

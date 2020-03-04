@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+* {
+  font-family: "poppins" !important;
+}
+
 .nav1 {
     background-color: black;
     color: white;
@@ -27,17 +34,21 @@
     flex-wrap: wrap;
     height: 44px;
     overflow: hidden;
-    gap: 0 var(--small);
+    /* gap: 0 var(--small); */
     padding-inline: 8px;
   }
+
+  /* li {
+    padding-right: var(--small);
+  } */
   
   .nav--open ul {
     height:auto;
   }
   
-  /* .nav1 li {
+  .nav1 li {
     margin-right: var(--small);
-  } */
+  }
 
   .nav1 a {
     padding-top: 12px;
@@ -50,6 +61,8 @@
   .nav1 button {
     display: flex;
     align-items: center;
+    padding-left: 4px;
+    padding-right: 8px;
   }
   
   .nav1 button svg {
@@ -96,7 +109,16 @@
   grid-auto-columns: max-content;
   gap: var(--small); */
   display: flex;
-  overflow-x: scroll;
+  overflow-x: scroll; 
+}
+
+.nav2 ul {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.nav2 ul::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
 }
 
 .nav2 ul li + li {
@@ -111,4 +133,18 @@
 img {
   max-width: 100%;
   display: flex;
+}
+
+.hidden {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.nav2 button {
+  pointer-events: none;
+  outline: 0 !important;
+}
+
+a {
+  outline: none;
 }
